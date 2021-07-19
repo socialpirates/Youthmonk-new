@@ -1874,23 +1874,23 @@ input[type="radio"] + label:before {
 .image {
   border-radius: 0.375em;
   border: 0;
-  height: 35vh;
+  height: 35vw;
   display: block;
   position: relative;
 }
 @media only screen and (max-width:1035px) {
     .image{
-        height: 25vh;
+        height: 25vw;
     }
 }
 @media only screen and (max-width:650px) {
     .image{
-        height: 18vh;
+        height: 18vw;
     }
 }
 @media only screen and (max-width:480px) {
     .image{
-        height: 25vh;
+        height: 25vw;
     }
 }
 .image img {
