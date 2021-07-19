@@ -1874,24 +1874,8 @@ input[type="radio"] + label:before {
 .image {
   border-radius: 0.375em;
   border: 0;
-  height: 35vw;
   display: block;
   position: relative;
-}
-@media only screen and (max-width:1035px) {
-    .image{
-        height: 25vw;
-    }
-}
-@media only screen and (max-width:650px) {
-    .image{
-        height: 18vw;
-    }
-}
-@media only screen and (max-width:480px) {
-    .image{
-        height: 25vw;
-    }
 }
 .image img {
   border-radius: 0.375em;
@@ -2605,6 +2589,7 @@ button:disabled,
 }
 .posts article .image img {
   display: block;
+  height: 60%;
   width: 100%;
 }
 @media screen and (min-width: 1681px) {
