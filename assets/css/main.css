@@ -2589,7 +2589,6 @@ button:disabled,
 }
 .posts article .image img {
   display: block;
-  height: 60%;
   width: 100%;
 }
 @media screen and (min-width: 1681px) {
